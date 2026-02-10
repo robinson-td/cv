@@ -8,34 +8,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <p>Thomas Robinson</p>
-    <nav>        
-        <p><a href="index.html">About Thomas Robinson</a></p>
+    <!-- Navigation Section -->
+    <nav>
+        <p>Thomas Robinson</p>
+        <p><a href="index.html">&larr; Back to Portfolio</a></p>
     </nav>
-    <h1>Thomas Robinson</h1>
-    <p class="address">456 Main st., Atlanta, GA 30307&bull; (555) 456-7890 &bull; tnr85599@uga.edu    </p>
-    <p class="tagline">Computer science enthusiast with a passion for web development and software engineering.</p>
 
+    <!-- Contact Header -->
+    <header>
+        <h1>Get In Touch</h1>
+    </header>
+
+    <section class="profile-intro">
+        <p class="address">456 Main st., Atlanta, GA 30307 • (555) 456-7890 • tnr85599@uga.edu</p>
+        <p class="tagline">Computer science enthusiast with a passion for web development and software engineering. Let's connect and discuss opportunities!</p>
+    </section>
 
     <hr>
 
     <section>
-        <form class="one-col" method="POST"   action="https://formsubmit.co/tnr85599@uga.edu">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+        <h2>Send Me a Message</h2>
+        <form class="one-col" method="POST" action="https://formsubmit.co/tnr85599@uga.edu">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
 
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4"></textarea>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or inquiry..." required></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; <a href="index.html">Thomas Robinson</a> <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+        <p>&copy; 2026 <a href="index.html">Thomas Robinson</a> • All Rights Reserved <a href="https://www.linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a></p>
     </footer>
 </body>
 </html>
